@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+
+        android:id="@+id/itemID"
+        android:icon="@drawable/ic_baseline_beach_access_24"
+        android:title="Item"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/settingsID"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/themeID"
+        android:icon="@drawable/theme"
+        android:title="Theme" />
+</menu>
